@@ -1,0 +1,32 @@
+# Python
+backend/venv/
+**/__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Flutter
+**/.dart_tool/
+**/build/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/coverage/
+
+# IDE
+.idea/
+
+# Private media and local storage
+storage/
+media/
+*.mp4
+*.mkv
+*.avi
+*.mov
+
+# OS
+.DS_Store
+Thumbs.db
